@@ -1,0 +1,201 @@
+timestamp,source_ip,destination_ip,source_port,destination_port,protocol,alert_type,category,message,severity,source,asset_criticality
+2026-06-04 10:02:00,198.51.7.44,10.0.2.12,42574,80,UDP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.2.12 from 198.51.7.44,MEDIUM,DEMO DATA,MEDIUM
+2026-06-03 02:32:00,198.51.6.44,10.0.5.40,1433,22,HTTPS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.40 from 198.51.6.44,MEDIUM,DEMO DATA,LOW
+2026-06-05 23:33:00,198.51.2.22,10.0.5.25,3389,1433,UDP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.25 from 198.51.2.22,HIGH,DEMO DATA,HIGH
+2026-06-02 11:15:00,198.51.6.22,10.0.5.77,8644,80,HTTP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.5.77, source 198.51.6.22",LOW,DEMO DATA,LOW
+2026-06-03 02:29:00,198.51.9.33,10.0.5.25,80,80,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.25 from 198.51.9.33,HIGH,DEMO DATA,LOW
+2026-06-03 16:00:00,198.51.6.22,10.0.2.77,443,1433,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.6.22 against 10.0.2.77,LOW,DEMO DATA,LOW
+2026-06-02 05:29:00,198.51.5.44,10.0.3.5,80,22,HTTP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.5.44,MEDIUM,DEMO DATA,HIGH
+2026-06-01 16:19:00,198.51.4.22,10.0.5.25,22,1433,TCP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.25 from 198.51.4.22,HIGH,DEMO DATA,HIGH
+2026-06-03 06:49:00,198.51.5.10,10.0.3.77,80,3389,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.3.77, source 198.51.5.10",MEDIUM,DEMO DATA,LOW
+2026-06-02 22:32:00,198.51.5.10,10.0.2.40,3389,1433,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.5.10,MEDIUM,DEMO DATA,LOW
+2026-06-04 09:35:00,198.51.2.10,10.0.4.25,22,80,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.25 from 198.51.2.10,MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 11:26:00,198.51.8.44,10.0.4.25,3389,443,HTTPS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.8.44 to 10.0.4.25,MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 00:25:00,198.51.5.44,10.0.3.12,443,443,DNS,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.12, source 198.51.5.44",LOW,DEMO DATA,HIGH
+2026-06-05 09:28:00,198.51.1.22,10.0.1.5,3827,3389,DNS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.22,LOW,DEMO DATA,MEDIUM
+2026-06-03 06:18:00,198.51.6.10,10.0.5.40,443,80,HTTP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.10 targeting 10.0.5.40,LOW,DEMO DATA,HIGH
+2026-06-02 09:16:00,198.51.5.10,10.0.5.77,7477,3389,UDP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.77 from 198.51.5.10,LOW,DEMO DATA,LOW
+2026-06-04 13:13:00,198.51.2.44,10.0.1.12,80,22,ICMP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.1.12, source 198.51.2.44",MEDIUM,DEMO DATA,HIGH
+2026-06-03 12:27:00,198.51.2.44,10.0.3.12,3389,443,DNS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.2.44 to 10.0.3.12,LOW,DEMO DATA,HIGH
+2026-06-05 05:33:00,198.51.6.44,10.0.5.77,443,80,UDP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.6.44 to external host 10.0.5.77,MEDIUM,DEMO DATA,MEDIUM
+2026-06-05 11:05:00,198.51.9.10,10.0.2.77,443,443,HTTPS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.9.10 against 10.0.2.77,MEDIUM,DEMO DATA,HIGH
+2026-06-02 14:02:00,198.51.4.10,10.0.5.5,80,33932,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.5.5, source 198.51.4.10",HIGH,DEMO DATA,HIGH
+2026-06-02 12:59:00,198.51.1.44,10.0.1.5,1433,22,UDP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.1.44 targeting 10.0.1.5,LOW,DEMO DATA,HIGH
+2026-06-01 11:48:00,198.51.2.10,10.0.5.77,1433,16408,ICMP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.2.10,CRITICAL,DEMO DATA,MEDIUM
+2026-06-02 22:10:00,198.51.6.33,10.0.2.12,80,22,TCP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.2.12 from 198.51.6.33,LOW,DEMO DATA,MEDIUM
+2026-06-03 09:56:00,198.51.4.22,10.0.3.77,80,80,DNS,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.77, source 198.51.4.22",HIGH,DEMO DATA,HIGH
+2026-06-05 07:37:00,198.51.5.33,10.0.4.25,80,29050,ICMP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.4.25 from 198.51.5.33,HIGH,DEMO DATA,HIGH
+2026-06-01 10:43:00,198.51.8.22,10.0.3.5,1433,3389,DNS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.8.22 against 10.0.3.5,MEDIUM,DEMO DATA,MEDIUM
+2026-06-02 18:20:00,198.51.1.10,10.0.1.25,1433,6378,ICMP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.10,LOW,DEMO DATA,MEDIUM
+2026-06-02 05:52:00,198.51.5.33,10.0.1.77,443,22,ICMP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.1.77 from 198.51.5.33,MEDIUM,DEMO DATA,HIGH
+2026-06-04 00:23:00,198.51.5.22,10.0.3.77,3389,80,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.3.77 from 198.51.5.22,HIGH,DEMO DATA,HIGH
+2026-06-03 01:22:00,198.51.4.44,10.0.1.25,443,3389,HTTPS,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.4.44 to 10.0.1.25,HIGH,DEMO DATA,MEDIUM
+2026-06-04 01:48:00,198.51.6.44,10.0.3.25,1433,80,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.3.25, source 198.51.6.44",LOW,DEMO DATA,MEDIUM
+2026-06-03 22:24:00,198.51.1.22,10.0.2.25,1433,22,DNS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.22,LOW,DEMO DATA,MEDIUM
+2026-06-05 11:35:00,198.51.9.33,10.0.2.77,22,18957,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.9.33 against 10.0.2.77,MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 17:13:00,198.51.1.22,10.0.5.5,49900,80,DNS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.1.22 against 10.0.5.5,LOW,DEMO DATA,LOW
+2026-06-05 08:24:00,198.51.9.22,10.0.3.5,443,443,DNS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.3.5 from 198.51.9.22,MEDIUM,DEMO DATA,LOW
+2026-06-05 13:52:00,198.51.8.44,10.0.4.25,1433,22,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.25 from 198.51.8.44,HIGH,DEMO DATA,HIGH
+2026-06-05 17:50:00,198.51.1.10,10.0.3.25,1433,22,HTTPS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.25 from 198.51.1.10,LOW,DEMO DATA,MEDIUM
+2026-06-03 09:24:00,198.51.2.44,10.0.3.40,17127,11657,HTTP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.2.44 targeting 10.0.3.40,CRITICAL,DEMO DATA,HIGH
+2026-06-03 05:09:00,198.51.6.10,10.0.2.12,443,22,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.6.10 to 10.0.2.12,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 21:13:00,198.51.5.44,10.0.5.5,22,3389,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.5.44 against 10.0.5.5,HIGH,DEMO DATA,HIGH
+2026-06-01 14:50:00,198.51.1.33,10.0.3.5,80,80,HTTPS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.3.5 from 198.51.1.33,LOW,DEMO DATA,HIGH
+2026-06-03 12:20:00,198.51.9.10,10.0.2.25,3389,443,DNS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.2.25 from 198.51.9.10,LOW,DEMO DATA,HIGH
+2026-06-03 18:11:00,198.51.8.33,10.0.2.40,443,1433,TCP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.8.33 to 10.0.2.40,HIGH,DEMO DATA,MEDIUM
+2026-06-02 05:41:00,198.51.7.22,10.0.1.12,3389,1433,HTTPS,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.1.12, source 198.51.7.22",CRITICAL,DEMO DATA,MEDIUM
+2026-06-05 23:20:00,198.51.4.44,10.0.1.5,3389,80,DNS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.4.44 targeting 10.0.1.5,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 21:25:00,198.51.3.33,10.0.3.40,443,1433,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.40, source 198.51.3.33",HIGH,DEMO DATA,HIGH
+2026-06-04 00:59:00,198.51.5.22,10.0.4.12,80,80,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.12, source 198.51.5.22",LOW,DEMO DATA,LOW
+2026-06-04 11:56:00,198.51.6.33,10.0.2.40,3389,3389,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.6.33 against 10.0.2.40,HIGH,DEMO DATA,HIGH
+2026-06-02 17:27:00,198.51.9.33,10.0.4.12,3389,13677,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.12, source 198.51.9.33",LOW,DEMO DATA,MEDIUM
+2026-06-03 08:24:00,198.51.1.33,10.0.4.25,443,443,HTTP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.4.25, source 198.51.1.33",MEDIUM,DEMO DATA,LOW
+2026-06-04 19:05:00,198.51.5.44,10.0.3.77,22,80,TCP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.5.44 to 10.0.3.77,HIGH,DEMO DATA,HIGH
+2026-06-05 11:05:00,198.51.8.22,10.0.5.40,3389,3389,DNS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.8.22 to external host 10.0.5.40,HIGH,DEMO DATA,HIGH
+2026-06-04 05:01:00,198.51.4.44,10.0.2.77,22,57127,UDP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.2.77 from 198.51.4.44,LOW,DEMO DATA,HIGH
+2026-06-03 03:20:00,198.51.5.33,10.0.5.5,443,443,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.33 to 10.0.5.5,CRITICAL,DEMO DATA,HIGH
+2026-06-02 03:17:00,198.51.5.10,10.0.2.12,443,443,HTTPS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.5.10 against 10.0.2.12,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 12:35:00,198.51.8.10,10.0.3.25,22,9638,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.25 from 198.51.8.10,LOW,DEMO DATA,HIGH
+2026-06-03 06:55:00,198.51.3.44,10.0.2.12,1433,22,TCP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.3.44 to 10.0.2.12,LOW,DEMO DATA,LOW
+2026-06-03 11:13:00,198.51.3.33,10.0.1.40,443,3389,HTTPS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.3.33 targeting 10.0.1.40,MEDIUM,DEMO DATA,LOW
+2026-06-03 04:41:00,198.51.3.22,10.0.5.25,3389,22,DNS,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.5.25, source 198.51.3.22",MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 18:08:00,198.51.6.10,10.0.2.25,22,443,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.2.25, source 198.51.6.10",CRITICAL,DEMO DATA,MEDIUM
+2026-06-04 04:04:00,198.51.8.10,10.0.1.40,443,443,TCP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.8.10,MEDIUM,DEMO DATA,HIGH
+2026-06-04 01:34:00,198.51.5.10,10.0.5.77,80,1433,HTTPS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.10 to 10.0.5.77,CRITICAL,DEMO DATA,HIGH
+2026-06-05 01:40:00,198.51.4.10,10.0.4.12,80,22,DNS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.4.10 to 10.0.4.12,HIGH,DEMO DATA,HIGH
+2026-06-02 09:23:00,198.51.2.22,10.0.1.77,28385,443,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.1.77, source 198.51.2.22",MEDIUM,DEMO DATA,MEDIUM
+2026-06-03 13:45:00,198.51.8.22,10.0.1.40,80,1433,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.8.22,CRITICAL,DEMO DATA,HIGH
+2026-06-02 12:05:00,198.51.2.10,10.0.4.25,443,80,TCP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.2.10 to 10.0.4.25,LOW,DEMO DATA,LOW
+2026-06-05 07:32:00,198.51.6.44,10.0.2.25,80,1433,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.6.44,MEDIUM,DEMO DATA,LOW
+2026-06-02 00:35:00,198.51.1.33,10.0.3.25,61965,443,DNS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.3.25 from 198.51.1.33,HIGH,DEMO DATA,HIGH
+2026-06-02 03:14:00,198.51.1.22,10.0.2.5,80,3389,TCP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.1.22 to external host 10.0.2.5,MEDIUM,DEMO DATA,HIGH
+2026-06-03 22:57:00,198.51.3.44,10.0.3.5,1433,443,TCP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.3.44 to external host 10.0.3.5,LOW,DEMO DATA,HIGH
+2026-06-03 19:55:00,198.51.3.22,10.0.3.25,443,1433,DNS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.3.22 targeting 10.0.3.25,MEDIUM,DEMO DATA,HIGH
+2026-06-03 15:17:00,198.51.5.33,10.0.4.5,57060,3389,TCP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.5.33 to external host 10.0.4.5,HIGH,DEMO DATA,HIGH
+2026-06-03 23:40:00,198.51.9.22,10.0.3.5,22,22,ICMP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.9.22 against 10.0.3.5,MEDIUM,DEMO DATA,HIGH
+2026-06-03 03:24:00,198.51.7.44,10.0.5.40,443,1433,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.5.40, source 198.51.7.44",MEDIUM,DEMO DATA,LOW
+2026-06-03 20:37:00,198.51.8.10,10.0.2.25,22,32200,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.8.10 against 10.0.2.25,HIGH,DEMO DATA,HIGH
+2026-06-04 17:40:00,198.51.9.33,10.0.2.77,22,60746,DNS,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.2.77, source 198.51.9.33",MEDIUM,DEMO DATA,MEDIUM
+2026-06-05 13:56:00,198.51.7.33,10.0.4.40,43590,1433,TCP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.7.33 to 10.0.4.40,LOW,DEMO DATA,LOW
+2026-06-01 16:54:00,198.51.9.22,10.0.1.77,3389,443,UDP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.9.22 against 10.0.1.77,HIGH,DEMO DATA,HIGH
+2026-06-01 23:29:00,198.51.1.22,10.0.3.5,3389,1433,HTTP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.22,LOW,DEMO DATA,LOW
+2026-06-02 17:48:00,198.51.4.33,10.0.1.12,443,443,HTTP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.1.12 from 198.51.4.33,LOW,DEMO DATA,LOW
+2026-06-02 16:19:00,198.51.4.22,10.0.2.12,22,443,ICMP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.2.12 from 198.51.4.22,HIGH,DEMO DATA,MEDIUM
+2026-06-04 23:17:00,198.51.3.44,10.0.5.5,1433,80,UDP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.3.44 targeting 10.0.5.5,CRITICAL,DEMO DATA,LOW
+2026-06-05 15:38:00,198.51.5.44,10.0.5.40,443,3389,DNS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.5.44 against 10.0.5.40,LOW,DEMO DATA,LOW
+2026-06-01 10:47:00,198.51.8.10,10.0.3.40,443,8931,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.40 from 198.51.8.10,LOW,DEMO DATA,LOW
+2026-06-02 08:08:00,198.51.3.44,10.0.5.40,443,25437,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.3.44,MEDIUM,DEMO DATA,LOW
+2026-06-02 17:05:00,198.51.9.22,10.0.2.25,12857,443,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.2.25, source 198.51.9.22",HIGH,DEMO DATA,HIGH
+2026-06-03 12:07:00,198.51.8.22,10.0.1.25,1433,22,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.8.22 against 10.0.1.25,CRITICAL,DEMO DATA,HIGH
+2026-06-02 10:15:00,198.51.5.33,10.0.4.25,22,443,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.25, source 198.51.5.33",MEDIUM,DEMO DATA,LOW
+2026-06-04 02:50:00,198.51.5.22,10.0.5.40,80,22,HTTPS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.22 to 10.0.5.40,LOW,DEMO DATA,MEDIUM
+2026-06-03 20:15:00,198.51.7.10,10.0.1.5,1433,51930,ICMP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.1.5, source 198.51.7.10",LOW,DEMO DATA,MEDIUM
+2026-06-02 15:47:00,198.51.1.33,10.0.4.12,56427,1433,DNS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.12 from 198.51.1.33,MEDIUM,DEMO DATA,HIGH
+2026-06-04 11:01:00,198.51.3.33,10.0.1.40,3389,443,DNS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.3.33 to 10.0.1.40,MEDIUM,DEMO DATA,HIGH
+2026-06-04 02:17:00,198.51.5.10,10.0.4.5,1433,443,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.4.5, source 198.51.5.10",LOW,DEMO DATA,LOW
+2026-06-03 13:13:00,198.51.1.44,10.0.4.40,443,1433,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.40, source 198.51.1.44",HIGH,DEMO DATA,HIGH
+2026-06-03 12:18:00,198.51.7.44,10.0.4.12,22,22,UDP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.12 from 198.51.7.44,HIGH,DEMO DATA,HIGH
+2026-06-01 19:57:00,198.51.4.44,10.0.4.77,22,443,HTTPS,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.4.44 to 10.0.4.77,LOW,DEMO DATA,HIGH
+2026-06-04 08:22:00,198.51.5.10,10.0.5.77,1433,3389,ICMP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.5.10 to 10.0.5.77,MEDIUM,DEMO DATA,LOW
+2026-06-04 17:58:00,198.51.8.44,10.0.5.25,3389,443,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.8.44 to 10.0.5.25,HIGH,DEMO DATA,MEDIUM
+2026-06-01 05:45:00,198.51.4.22,10.0.5.25,1433,80,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.25 from 198.51.4.22,LOW,DEMO DATA,MEDIUM
+2026-06-02 08:51:00,198.51.1.33,10.0.1.5,80,3389,HTTPS,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.1.33 to 10.0.1.5,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 04:40:00,198.51.7.44,10.0.1.25,48014,80,ICMP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.1.25 from 198.51.7.44,MEDIUM,DEMO DATA,MEDIUM
+2026-06-03 09:07:00,198.51.9.44,10.0.2.25,80,443,ICMP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.9.44 against 10.0.2.25,MEDIUM,DEMO DATA,HIGH
+2026-06-03 07:01:00,198.51.1.33,10.0.2.5,4859,1433,DNS,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.2.5, source 198.51.1.33",MEDIUM,DEMO DATA,HIGH
+2026-06-05 19:06:00,198.51.8.22,10.0.3.25,22,3389,ICMP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.8.22 to 10.0.3.25,LOW,DEMO DATA,LOW
+2026-06-03 17:33:00,198.51.9.44,10.0.2.5,1433,443,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.9.44 to 10.0.2.5,LOW,DEMO DATA,MEDIUM
+2026-06-02 03:55:00,198.51.3.44,10.0.4.5,22,4114,ICMP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.5 from 198.51.3.44,MEDIUM,DEMO DATA,MEDIUM
+2026-06-02 00:51:00,198.51.1.22,10.0.4.12,3389,38207,DNS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.22,HIGH,DEMO DATA,LOW
+2026-06-01 07:48:00,198.51.2.33,10.0.3.12,443,80,DNS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.2.33,LOW,DEMO DATA,LOW
+2026-06-03 13:25:00,198.51.6.10,10.0.3.25,3389,443,HTTPS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.10 targeting 10.0.3.25,LOW,DEMO DATA,HIGH
+2026-06-04 11:00:00,198.51.5.44,10.0.3.25,80,1433,HTTPS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.5.44 targeting 10.0.3.25,LOW,DEMO DATA,LOW
+2026-06-03 08:04:00,198.51.4.22,10.0.2.77,36674,1433,DNS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.4.22 targeting 10.0.2.77,MEDIUM,DEMO DATA,HIGH
+2026-06-03 13:40:00,198.51.6.10,10.0.5.40,80,443,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.6.10,MEDIUM,DEMO DATA,HIGH
+2026-06-03 04:46:00,198.51.7.22,10.0.1.77,80,443,ICMP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.1.77 from 198.51.7.22,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 05:33:00,198.51.4.22,10.0.1.77,49986,1433,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.1.77, source 198.51.4.22",HIGH,DEMO DATA,HIGH
+2026-06-04 04:12:00,198.51.2.10,10.0.2.12,22,443,UDP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.2.10,MEDIUM,DEMO DATA,HIGH
+2026-06-01 16:21:00,198.51.2.22,10.0.3.40,3389,443,ICMP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.2.22,MEDIUM,DEMO DATA,MEDIUM
+2026-06-03 06:56:00,198.51.4.33,10.0.2.5,80,24008,DNS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.4.33,LOW,DEMO DATA,LOW
+2026-06-02 22:40:00,198.51.2.22,10.0.5.40,80,1433,ICMP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.2.22 to 10.0.5.40,CRITICAL,DEMO DATA,HIGH
+2026-06-01 03:08:00,198.51.5.44,10.0.5.25,443,22,HTTP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.5.44 to 10.0.5.25,CRITICAL,DEMO DATA,MEDIUM
+2026-06-05 19:36:00,198.51.7.10,10.0.4.5,31756,443,TCP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.7.10 targeting 10.0.4.5,MEDIUM,DEMO DATA,LOW
+2026-06-03 02:57:00,198.51.6.33,10.0.3.5,18187,80,DNS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.33 targeting 10.0.3.5,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 04:14:00,198.51.6.22,10.0.3.12,80,22,DNS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.6.22 to external host 10.0.3.12,MEDIUM,DEMO DATA,LOW
+2026-06-04 11:40:00,198.51.9.33,10.0.3.40,22,3389,HTTP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.40, source 198.51.9.33",MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 21:18:00,198.51.1.33,10.0.1.77,3389,3389,TCP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.1.33 to external host 10.0.1.77,MEDIUM,DEMO DATA,LOW
+2026-06-02 07:11:00,198.51.4.10,10.0.2.40,80,22,HTTPS,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.2.40, source 198.51.4.10",LOW,DEMO DATA,MEDIUM
+2026-06-03 19:23:00,198.51.4.44,10.0.4.25,1433,1433,HTTPS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.4.44 targeting 10.0.4.25,HIGH,DEMO DATA,HIGH
+2026-06-01 14:11:00,198.51.5.10,10.0.3.12,21560,14653,HTTP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.12 from 198.51.5.10,HIGH,DEMO DATA,HIGH
+2026-06-01 21:46:00,198.51.4.10,10.0.2.5,3389,1433,ICMP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.4.10 to 10.0.2.5,LOW,DEMO DATA,MEDIUM
+2026-06-05 06:15:00,198.51.5.33,10.0.3.12,80,80,ICMP,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.5.33 to external host 10.0.3.12,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 17:12:00,198.51.9.10,10.0.5.40,22,59063,ICMP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.9.10 to 10.0.5.40,HIGH,DEMO DATA,LOW
+2026-06-04 20:44:00,198.51.9.10,10.0.5.77,1433,3389,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.77 from 198.51.9.10,MEDIUM,DEMO DATA,LOW
+2026-06-03 21:17:00,198.51.5.10,10.0.3.25,3389,17600,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.25 from 198.51.5.10,HIGH,DEMO DATA,MEDIUM
+2026-06-02 21:34:00,198.51.6.10,10.0.2.5,1433,80,HTTPS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.2.5 from 198.51.6.10,HIGH,DEMO DATA,MEDIUM
+2026-06-01 17:05:00,198.51.5.22,10.0.2.5,41734,80,DNS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.22 to 10.0.2.5,LOW,DEMO DATA,LOW
+2026-06-04 22:43:00,198.51.8.33,10.0.4.40,80,18589,ICMP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.8.33 targeting 10.0.4.40,CRITICAL,DEMO DATA,MEDIUM
+2026-06-04 20:44:00,198.51.7.22,10.0.3.25,80,22,TCP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.7.22,CRITICAL,DEMO DATA,LOW
+2026-06-04 01:31:00,198.51.6.33,10.0.5.40,3389,22,HTTPS,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.6.33,CRITICAL,DEMO DATA,MEDIUM
+2026-06-02 18:12:00,198.51.6.44,10.0.1.25,58027,80,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.6.44 to 10.0.1.25,MEDIUM,DEMO DATA,HIGH
+2026-06-01 19:23:00,198.51.7.33,10.0.5.77,26540,80,HTTPS,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.5.77, source 198.51.7.33",CRITICAL,DEMO DATA,MEDIUM
+2026-06-05 17:50:00,198.51.8.10,10.0.2.5,443,3389,HTTP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.8.10 to 10.0.2.5,LOW,DEMO DATA,LOW
+2026-06-02 12:53:00,198.51.6.10,10.0.1.5,443,3389,ICMP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.6.10 to 10.0.1.5,MEDIUM,DEMO DATA,MEDIUM
+2026-06-02 03:27:00,198.51.2.22,10.0.4.5,1433,80,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.4.5, source 198.51.2.22",MEDIUM,DEMO DATA,LOW
+2026-06-02 00:55:00,198.51.2.22,10.0.1.5,80,3389,HTTP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.2.22,LOW,DEMO DATA,LOW
+2026-06-03 06:03:00,198.51.6.33,10.0.4.25,1433,41440,HTTPS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.6.33 to external host 10.0.4.25,MEDIUM,DEMO DATA,MEDIUM
+2026-06-05 22:02:00,198.51.4.10,10.0.2.77,3389,38461,TCP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.4.10,LOW,DEMO DATA,LOW
+2026-06-01 16:13:00,198.51.3.33,10.0.4.25,443,1433,ICMP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.3.33 targeting 10.0.4.25,MEDIUM,DEMO DATA,LOW
+2026-06-02 04:41:00,198.51.8.22,10.0.1.5,22,1433,ICMP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.8.22 to 10.0.1.5,LOW,DEMO DATA,LOW
+2026-06-05 13:38:00,198.51.7.22,10.0.2.77,22,3389,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.2.77 from 198.51.7.22,MEDIUM,DEMO DATA,HIGH
+2026-06-01 03:12:00,198.51.5.10,10.0.4.77,80,3389,DNS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.5.10 to external host 10.0.4.77,LOW,DEMO DATA,MEDIUM
+2026-06-04 13:35:00,198.51.5.22,10.0.3.12,443,22,DNS,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.5.22 to 10.0.3.12,MEDIUM,DEMO DATA,MEDIUM
+2026-06-02 21:42:00,198.51.2.33,10.0.2.40,80,4098,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.2.40, source 198.51.2.33",LOW,DEMO DATA,HIGH
+2026-06-02 23:26:00,198.51.4.22,10.0.2.5,443,80,HTTP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.4.22,LOW,DEMO DATA,LOW
+2026-06-01 07:07:00,198.51.7.22,10.0.4.12,1433,80,TCP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.7.22 targeting 10.0.4.12,MEDIUM,DEMO DATA,LOW
+2026-06-04 08:25:00,198.51.2.10,10.0.5.77,3389,80,HTTP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.77 from 198.51.2.10,LOW,DEMO DATA,MEDIUM
+2026-06-04 20:27:00,198.51.5.22,10.0.1.25,443,80,ICMP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.22 to 10.0.1.25,MEDIUM,DEMO DATA,HIGH
+2026-06-04 14:39:00,198.51.3.22,10.0.5.40,60731,80,HTTPS,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.3.22 targeting 10.0.5.40,MEDIUM,DEMO DATA,HIGH
+2026-06-04 13:49:00,198.51.8.10,10.0.5.25,1433,22,TCP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.25 from 198.51.8.10,MEDIUM,DEMO DATA,HIGH
+2026-06-03 15:47:00,198.51.7.44,10.0.5.12,1433,3389,HTTPS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.12 from 198.51.7.44,MEDIUM,DEMO DATA,HIGH
+2026-06-01 04:23:00,198.51.1.33,10.0.4.12,3389,1433,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.12, source 198.51.1.33",MEDIUM,DEMO DATA,HIGH
+2026-06-04 01:18:00,198.51.6.10,10.0.1.77,17800,443,UDP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.10 targeting 10.0.1.77,MEDIUM,DEMO DATA,HIGH
+2026-06-01 07:09:00,198.51.9.44,10.0.3.25,3389,80,UDP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.3.25 from 198.51.9.44,HIGH,DEMO DATA,HIGH
+2026-06-03 21:51:00,198.51.2.44,10.0.1.40,22,22,DNS,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.2.44 to 10.0.1.40,LOW,DEMO DATA,MEDIUM
+2026-06-03 13:59:00,198.51.9.22,10.0.3.12,3389,3389,ICMP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.9.22,LOW,DEMO DATA,HIGH
+2026-06-04 03:46:00,198.51.2.10,10.0.1.40,3389,80,TCP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.1.40, source 198.51.2.10",MEDIUM,DEMO DATA,MEDIUM
+2026-06-05 12:47:00,198.51.9.44,10.0.1.25,443,22,ICMP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.9.44 targeting 10.0.1.25,CRITICAL,DEMO DATA,LOW
+2026-06-01 16:01:00,198.51.4.33,10.0.2.77,3389,3065,HTTPS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.2.77 from 198.51.4.33,MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 16:36:00,198.51.2.10,10.0.1.25,443,58470,UDP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.1.25 from 198.51.2.10,LOW,DEMO DATA,HIGH
+2026-06-05 15:29:00,198.51.7.10,10.0.1.5,21689,443,DNS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.7.10 to external host 10.0.1.5,LOW,DEMO DATA,HIGH
+2026-06-05 08:38:00,198.51.4.22,10.0.2.5,1433,22,UDP,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.2.5, source 198.51.4.22",LOW,DEMO DATA,MEDIUM
+2026-06-04 11:17:00,198.51.5.10,10.0.3.12,80,22,DNS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.5.10 against 10.0.3.12,MEDIUM,DEMO DATA,LOW
+2026-06-03 07:44:00,198.51.5.44,10.0.5.77,5706,3389,ICMP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.77 from 198.51.5.44,LOW,DEMO DATA,HIGH
+2026-06-01 18:15:00,198.51.5.22,10.0.3.77,22,1433,DNS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.5.22 to external host 10.0.3.77,MEDIUM,DEMO DATA,MEDIUM
+2026-06-01 16:03:00,198.51.8.44,10.0.4.40,443,22,DNS,Malware Detection,Malware Activity,"Known malware signature detected on host 10.0.4.40, source 198.51.8.44",LOW,DEMO DATA,HIGH
+2026-06-03 04:55:00,198.51.4.33,10.0.4.5,1433,3389,DNS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.5 from 198.51.4.33,LOW,DEMO DATA,LOW
+2026-06-02 14:24:00,198.51.7.33,10.0.3.5,443,20223,DNS,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.3.5 from 198.51.7.33,MEDIUM,DEMO DATA,LOW
+2026-06-03 08:11:00,198.51.4.44,10.0.1.5,443,3389,ICMP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.1.5, source 198.51.4.44",MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 17:45:00,198.51.2.33,10.0.4.25,80,443,TCP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.2.33 against 10.0.4.25,LOW,DEMO DATA,MEDIUM
+2026-06-04 19:12:00,198.51.6.33,10.0.1.5,22,80,HTTP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.33 targeting 10.0.1.5,MEDIUM,DEMO DATA,HIGH
+2026-06-04 17:00:00,198.51.8.33,10.0.5.12,80,3389,HTTP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.5.12 from 198.51.8.33,MEDIUM,DEMO DATA,LOW
+2026-06-01 09:05:00,198.51.2.44,10.0.1.12,3389,52813,UDP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.2.44 to 10.0.1.12,CRITICAL,DEMO DATA,HIGH
+2026-06-03 02:30:00,198.51.4.22,10.0.4.5,3389,7310,TCP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.4.5, source 198.51.4.22",HIGH,DEMO DATA,LOW
+2026-06-05 14:45:00,198.51.5.10,10.0.5.12,22,3389,UDP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.5.10 to 10.0.5.12,CRITICAL,DEMO DATA,LOW
+2026-06-01 14:52:00,198.51.6.44,10.0.1.5,1433,22,TCP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.1.5 from 198.51.6.44,MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 05:32:00,198.51.2.44,10.0.1.25,22,1433,ICMP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.2.44 to 10.0.1.25,LOW,DEMO DATA,MEDIUM
+2026-06-04 08:39:00,198.51.4.44,10.0.2.25,80,3389,UDP,Privilege Escalation,Authentication Threat,Unexpected privilege escalation attempt detected on host 10.0.2.25 from 198.51.4.44,MEDIUM,DEMO DATA,HIGH
+2026-06-05 20:09:00,198.51.8.22,10.0.1.77,1433,80,HTTPS,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.8.22 against 10.0.1.77,HIGH,DEMO DATA,HIGH
+2026-06-04 11:35:00,198.51.7.33,10.0.4.77,22,22,UDP,SQL Injection Attempt,Web Attack,Malicious SQL payload detected in HTTP request from 198.51.7.33 to 10.0.4.77,CRITICAL,DEMO DATA,LOW
+2026-06-02 16:09:00,198.51.7.10,10.0.2.5,3389,3389,ICMP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.7.10 against 10.0.2.5,MEDIUM,DEMO DATA,HIGH
+2026-06-02 16:53:00,198.51.7.10,10.0.3.40,1433,8347,HTTP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.7.10 targeting 10.0.3.40,LOW,DEMO DATA,MEDIUM
+2026-06-04 04:28:00,198.51.4.22,10.0.5.5,1433,22,HTTP,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.5.5 from 198.51.4.22,CRITICAL,DEMO DATA,HIGH
+2026-06-04 09:53:00,198.51.5.22,10.0.5.40,22,3389,HTTP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.5.22,LOW,DEMO DATA,MEDIUM
+2026-06-01 15:56:00,198.51.6.22,10.0.3.77,1433,80,HTTPS,Data Exfiltration,Data Exfiltration,Large outbound data transfer detected from 198.51.6.22 to external host 10.0.3.77,LOW,DEMO DATA,MEDIUM
+2026-06-05 15:46:00,198.51.6.10,10.0.3.25,7524,22,ICMP,DNS Tunneling,Data Exfiltration,Anomalous DNS query pattern suggesting tunneling from 198.51.6.10 to 10.0.3.25,LOW,DEMO DATA,MEDIUM
+2026-06-05 06:19:00,198.51.4.33,10.0.4.12,22,3389,HTTPS,DDoS Activity,Denial of Service,High volume traffic flood detected targeting 10.0.4.12 from 198.51.4.33,MEDIUM,DEMO DATA,LOW
+2026-06-03 01:55:00,198.51.6.33,10.0.2.25,443,443,UDP,SSH Brute Force,Authentication Threat,Multiple failed SSH login attempts detected from 198.51.6.33 targeting 10.0.2.25,CRITICAL,DEMO DATA,HIGH
+2026-06-02 01:04:00,198.51.1.44,10.0.3.5,443,22,UDP,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.5, source 198.51.1.44",MEDIUM,DEMO DATA,MEDIUM
+2026-06-04 16:21:00,198.51.5.22,10.0.3.40,22,1433,DNS,Ransomware Activity,Malware Activity,"Rapid file encryption behavior detected on host 10.0.3.40, source 198.51.5.22",HIGH,DEMO DATA,LOW
+2026-06-05 17:31:00,198.51.7.22,10.0.2.25,443,80,ICMP,Port Scan,Network Scanning,TCP port scan detected originating from 198.51.7.22 against 10.0.2.25,LOW,DEMO DATA,HIGH
+2026-06-03 18:56:00,198.51.1.44,10.0.5.77,22,80,ICMP,Suspicious Login,Authentication Threat,Login from unusual geographic location for account originating at 198.51.1.44,LOW,DEMO DATA,HIGH
